@@ -1,0 +1,9 @@
+name: only-function-deploy
+region: us-east-1
+cloudProvider: aws
+classes: []
+soloFunction:
+  path: index.js
+  type: jsonrpc
+  language: js
+  name: test
